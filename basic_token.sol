@@ -1,9 +1,10 @@
 pragma solidity >=0.4.24;
 
+// Creating a Token for my Alma Matter - IIM Kozhikode
 contract myToken {
 
-    string public constant name = "Udacity Token";
-    string public constant symbol = "UDC";
+    string public constant name = "IIM Kozhikode";
+    string public constant symbol = "IIMK";
     uint8 public constant decimals = 18;  // 18 is the most common number of decimal places
     uint _totalSupply;
 
